@@ -1,0 +1,8 @@
+[package]
+name = "rbp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rppal = { version = "0.18.0", features = ["hal"] }
+gilrs = "0.10.9"
